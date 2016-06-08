@@ -125,12 +125,20 @@ class BriefcaseClass
 {
 	public:
 		DrawCase();//Main function
-		SetMoney();
-
-
 	private:
-		int box;
-		double money;
-		String model;
-
 };
+
+class GameplayClass
+{
+	public:
+		GameplayClass();
+		SetModel();
+	private
+		vector<String>model(26);
+		vector<int>money(26);
+};
+GameplayClass::SetModel()
+{
+	model[0] = "";
+	model[0] = "";
+}
